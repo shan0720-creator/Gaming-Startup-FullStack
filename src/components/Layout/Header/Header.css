@@ -1,0 +1,27 @@
+.para{
+    color: white;
+}
+.Draw{
+    color:#E50914;
+    background-image: url("banner.jpg");
+   
+}
+
+.Drawer{
+    background-image: url("banner.jpg");
+}
+.dbody{
+    background-image: url("banner.jpg");
+}
+
+
+.button{
+    animation: vectorAnimation 1s infinite ease-in-out alternate;
+}
+
+
+@keyframes vectorAnimation{
+    to{
+        transform: translateY(-50px)
+    }
+}
